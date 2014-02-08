@@ -1,0 +1,21 @@
+{
+    "name": "naldz/auditlog-bundle",
+    "require": {
+        "php": ">=5.3.0",
+        "symfony/framework-bundle": "~2.4"
+    },
+    "require-dev": {
+        "symfony/console": "2.4.*",
+		"phpunit/phpunit": "3.7.*",
+        "symfony/yaml": "2.5.*@dev",
+        "propel/propel1": "~1.7"
+	},
+	"autoload": {
+        "psr-0": { "Naldz\\Bundle\\AuditLogBundle": "" }
+    },
+	"target-dir": "Naldz/Bundle/AuditLogBundle",
+    "config": {
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "stable"
+}
